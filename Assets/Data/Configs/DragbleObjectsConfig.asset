@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3ab0a5d46f2b84eb4373b9f6bb20e4, type: 3}
+  m_Name: DragbleObjectsConfig
+  m_EditorClassIdentifier: 
+  dragbleObjects:
+  - rectPosition: {x: 0, y: 100}
+    prefab: {fileID: 260399067251115754, guid: d6946afc0fcc0464892a6a387e227819, type: 3}
+  - rectPosition: {x: 300, y: 100}
+    prefab: {fileID: 260399067251115754, guid: d6946afc0fcc0464892a6a387e227819, type: 3}
+  - rectPosition: {x: -500, y: 400}
+    prefab: {fileID: 260399067251115754, guid: d6946afc0fcc0464892a6a387e227819, type: 3}
