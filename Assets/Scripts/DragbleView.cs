@@ -52,7 +52,6 @@ public class DragbleView : MonoBehaviour, IDragHandler, IEndDragHandler, IPointe
 
     private void Awake()
     {
-        Debug.Log("fgf");
         _rectTransform = GetComponent<RectTransform>();
         _collider = GetComponent<Collider2D>();
         _rigidbody = GetComponent<Rigidbody2D>();
